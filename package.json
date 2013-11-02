@@ -1,0 +1,15 @@
+{
+  "name": "faster_tab_browsing",
+  "fullName": "Faster tab browsing",
+  "id": "jid1-LelsJ0Oz0rt71A",
+  "description": "Use shift + page up/down to browse tabs faster.",
+  "author": "Hannu K",
+  "license": "MPL 2.0",
+  "version": "1.0",
+  "preferences": [{
+    "title": "Advance by how many tabs",
+    "name": "prefAmount",
+    "type": "integer",
+    "value": 4
+  }]
+}
