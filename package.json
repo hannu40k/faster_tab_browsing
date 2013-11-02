@@ -5,7 +5,7 @@
   "description": "Use shift + page up/down to browse tabs faster.",
   "author": "Hannu K",
   "license": "MPL 2.0",
-  "version": "1.0",
+  "version": "1.01",
   "preferences": [{
     "title": "Advance by how many tabs",
     "name": "prefAmount",
