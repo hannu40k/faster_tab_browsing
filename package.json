@@ -2,7 +2,7 @@
   "name": "faster_tab_browsing",
   "fullName": "Faster tab browsing",
   "id": "jid1-LelsJ0Oz0rt71A",
-  "description": "Use hotkeys and tab favorites to browse tabs faster.\n\n By default, pressing shift + page up/down advances over 4 tabs, instead of the normal 1, when pressing ctrl + page up/down.\n\n Ctrl + arrow up toggles the current active tab as a favorite, and you can switch between favorited tabs using ctrl + arrows left/right (default). All of these key combinations can be modified to some extent below.",
+  "description": "Use hotkeys and tab favorites to browse tabs faster.",
   "author": "Hannu K",
   "license": "MPL 2.0",
   "version": "1.1",
