@@ -5,7 +5,7 @@
   "description": "Use hotkeys and tab favorites to browse tabs faster.\n\n By default, pressing shift + page up/down advances over 4 tabs, instead of the normal 1, when pressing ctrl + page up/down.\n\n Ctrl + arrow up marks the current active tab as a favorite, and you can switch between favorited tabs using ctrl + arrows left/right (default). All of these key combinations can be modified to some extent below.",
   "author": "Hannu K",
   "license": "MPL 2.0",
-  "version": "1.01",
+  "version": "1.1",
   "preferences": [
   {
     "title": "When browsing tabs using shift + page up/down (default), advance by how many tabs",
