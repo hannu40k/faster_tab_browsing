@@ -2,14 +2,232 @@
   "name": "faster_tab_browsing",
   "fullName": "Faster tab browsing",
   "id": "jid1-LelsJ0Oz0rt71A",
-  "description": "Use shift + page up/down to browse tabs faster.",
+  "description": "Use hotkeys and tab favorites to browse tabs faster.",
   "author": "Hannu K",
   "license": "MPL 2.0",
-  "version": "1.01",
-  "preferences": [{
-    "title": "Advance by how many tabs",
+  "version": "1.1",
+  "preferences": [
+  {
+    "title": "When browsing tabs using shift + page up/down (default), advance by how many tabs",
     "name": "prefAmount",
     "type": "integer",
-    "value": 4
+    "value": 4,
+    "size": 3,
+    "cols": 3,
+    "maxLength": 3
+  },
+  {
+    "title": "Accel key for faster tab browsing",
+    "name": "prefBrowseTabsAccel",
+    "type": "menulist",
+    "value": "shift",
+    "options": [
+        {
+            "value": "shift",
+            "label": "Shift"
+        },
+        {
+            "value": "control",
+            "label": "Control"
+        },
+        {
+            "value": "alt",
+            "label": "Alt"
+        },
+        {
+            "value": "meta",
+            "label": "Meta"
+        }
+    ]
+  },
+  {
+    "title": "Key to advance tabs forward",
+    "name": "prefBrowseTabsKeyFw",
+    "type": "menulist",
+    "value": "PageDown",
+    "options": [
+        {
+            "value": "PageUp",
+            "label": "PageUp"
+        },
+        {
+            "value": "PageDown",
+            "label": "PageDown"
+        },
+        {
+            "value": "Up",
+            "label": "Up"
+        },
+        {
+            "value": "Down",
+            "label": "Down"
+        },
+        {
+            "value": "Left",
+            "label": "Left"
+        },
+        {
+            "value": "Right",
+            "label": "Right"
+        }
+    ]
+  },
+  {
+    "title": "Key to advance tabs backward",
+    "name": "prefBrowseTabsKeyBw",
+    "type": "menulist",
+    "value": "PageUp",
+    "options": [
+        {
+            "value": "PageUp",
+            "label": "PageUp"
+        },
+        {
+            "value": "PageDown",
+            "label": "PageDown"
+        },
+        {
+            "value": "Up",
+            "label": "Up"
+        },
+        {
+            "value": "Down",
+            "label": "Down"
+        },
+        {
+            "value": "Left",
+            "label": "Left"
+        },
+        {
+            "value": "Right",
+            "label": "Right"
+        }
+    ]
+  },
+  {
+    "title": "Accel key for toggling and browsing favorite tabs",
+    "name": "prefFavTabsAccel",
+    "type": "menulist",
+    "value": "control",
+    "options": [
+        {
+            "value": "shift",
+            "label": "Shift"
+        },
+        {
+            "value": "control",
+            "label": "Control"
+        },
+        {
+            "value": "alt",
+            "label": "Alt"
+        },
+        {
+            "value": "meta",
+            "label": "Meta"
+        }
+    ]
+  },
+  {
+    "title": "Key to advance favorite tabs forward",
+    "name": "prefFavTabsKeyFw",
+    "type": "menulist",
+    "value": "Right",
+    "options": [
+        {
+            "value": "PageUp",
+            "label": "PageUp"
+        },
+        {
+            "value": "PageDown",
+            "label": "PageDown"
+        },
+        {
+            "value": "Up",
+            "label": "Up"
+        },
+        {
+            "value": "Down",
+            "label": "Down"
+        },
+        {
+            "value": "Left",
+            "label": "Left"
+        },
+        {
+            "value": "Right",
+            "label": "Right"
+        }
+    ]
+  },
+  {
+    "title": "Key to advance favorite tabs backward",
+    "name": "prefFavTabsKeyBw",
+    "type": "menulist",
+    "value": "Left",
+    "options": [
+        {
+            "value": "PageUp",
+            "label": "PageUp"
+        },
+        {
+            "value": "PageDown",
+            "label": "PageDown"
+        },
+        {
+            "value": "Up",
+            "label": "Up"
+        },
+        {
+            "value": "Down",
+            "label": "Down"
+        },
+        {
+            "value": "Left",
+            "label": "Left"
+        },
+        {
+            "value": "Right",
+            "label": "Right"
+        }
+    ]
+  },
+  {
+    "title": "Key to toggle a tab as favorite",
+    "name": "prefToggleFav",
+    "type": "menulist",
+    "value": "Up",
+    "options": [
+        {
+            "value": "PageUp",
+            "label": "PageUp"
+        },
+        {
+            "value": "PageDown",
+            "label": "PageDown"
+        },
+        {
+            "value": "Up",
+            "label": "Up"
+        },
+        {
+            "value": "Down",
+            "label": "Down"
+        },
+        {
+            "value": "Left",
+            "label": "Left"
+        },
+        {
+            "value": "Right",
+            "label": "Right"
+        }
+    ]
+  },
+  {
+    "title": "Favorited tab font color",
+    "name": "prefFavTabFontColor",
+    "type": "color",
+    "value": "#ffcc00"
   }]
 }
