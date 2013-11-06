@@ -5,7 +5,7 @@
   "description": "Use hotkeys and tab favorites to browse tabs faster.",
   "author": "Hannu K",
   "license": "MPL 2.0",
-  "version": "1.1",
+  "version": "1.11",
   "preferences": [
   {
     "title": "When browsing tabs using shift + page up/down (default), advance by how many tabs",
