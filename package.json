@@ -228,7 +228,7 @@
     "title": "Favorite tab font color",
     "name": "prefFavTabFontColor",
     "type": "color",
-    "value": "#ffcc00"
+    "value": "#ffe661"
   },
   {
     "title": "Favorite tab font shadow color",
