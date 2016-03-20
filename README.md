@@ -1,6 +1,10 @@
-Use hotkeys and tab favorites to browse tabs faster.By default, pressing Shift + Page Up/Down advances over four tabs.
+A Firefox addon distributed officially at https://addons.mozilla.org/en-US/firefox/addon/faster-tab-browsing/
 
-Ctrl + Arrow Up (default) toggles the current active tab as a favorite, and you can switch between favorited tabs using Ctrl + Arrow Left/Right (default). All of these key combinations can be modified to some extent.
+Use hotkeys and tab favorites to quickly jump between often used tabs or jump over several tabs.
+
+- By default, pressing Shift + Page Up/Down advances over four tabs.
+
+- Ctrl + Arrow Up (default) toggles the current active tab as a favorite, and you can jump between favorite tabs using Ctrl + Arrow Left/Right (default). All of these key combinations can be modified to some extent.
 
 When you have a lot of tabs, works especially great when used with tree-style-tabs ( https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab ).
 

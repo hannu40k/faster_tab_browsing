@@ -1,11 +1,12 @@
 {
   "name": "faster_tab_browsing",
   "fullName": "Faster tab browsing",
-  "id": "jid1-LelsJ0Oz0rt71A",
+  "id": "jid1-LelsJ0Oz0rt71A@jetpack",
   "description": "Use hotkeys and tab favorites to browse tabs faster.",
   "author": "Hannu K",
   "license": "MPL 2.0",
-  "version": "1.12",
+  "version": "2.0.0",
+  "main": "lib/main.js",
   "preferences": [
   {
     "title": "When browsing tabs using shift + page up/down (default), advance by how many tabs",
@@ -17,7 +18,7 @@
     "maxLength": 3
   },
   {
-    "title": "Accel key for faster tab browsing",
+    "title": "Accel key to move over several tabs",
     "name": "prefBrowseTabsAccel",
     "type": "menulist",
     "value": "shift",
